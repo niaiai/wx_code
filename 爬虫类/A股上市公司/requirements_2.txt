@@ -1,0 +1,6 @@
+pandas
+lxml
+requests
+bs4
+pymysql
+sqlalchemy
