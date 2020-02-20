@@ -11,8 +11,6 @@ headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36
 
 mysql_host = 'localhost'
 mysql_password = '******'
-mysql_host = '10.1.11.11'
-mysql_password = '123456'
 mysql_db = 'python_spider'
 rename = {
     "上市日期": "listing_date",
