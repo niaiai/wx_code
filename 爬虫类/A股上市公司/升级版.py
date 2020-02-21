@@ -129,4 +129,5 @@ if __name__ == '__main__':
     print("多进程爬取")
     pool.map(spider_one_page, range(1, pages))
     endtime = time.time() - start_time
+    pool.close()
     print('程序运行了%.2f秒' % (time.time() - start_time))
